@@ -190,7 +190,7 @@ TypeError: unsupported operand type(s) for /: 'str' and 'str'
 
 ###Let's Develop It
 * We'll practice what we've learned in the shell
-*
+* Sam, Sally, Steve, Susan, Sarah are students. They are 19, 20, 25, 50, 15. Find the average age of the students. 
 
 Note: Let's develop it: 30 minutes.
 @@@
