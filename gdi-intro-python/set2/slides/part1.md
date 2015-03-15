@@ -151,7 +151,7 @@ Open up your terminal and type 'python' <!-- .element class="left-align" -->
 <type 'str'>
 >>> print type(3.5)
 <type 'float'>
-
+```
 @@@
 
 ###Data types - continued ...
@@ -164,7 +164,7 @@ Open up your terminal and type 'python' <!-- .element class="left-align" -->
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: unsupported operand type(s) for /: 'str' and 'str'
-
+```
 @@@
 
 
