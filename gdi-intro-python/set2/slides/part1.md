@@ -37,6 +37,9 @@ Hi! My name is Marianna Budnikova
 * Variables and arithmetic <!-- .element: class="fragment" -->
 * Statements and Error Messages <!-- .element: class="fragment" -->
 * Development Environment Setup <!-- .element: class="fragment" -->
+* Boolean Expressions and Conditionals <!-- .element: class="fragment" -->
+* Loops <!-- .element: class="fragment" -->
+* Functions <!-- .element: class="fragment" -->
 @@@
 
 ###Python? A snake?
@@ -123,8 +126,8 @@ Open up your terminal and type 'python' <!-- .element class="left-align" -->
 
 ###Strings
 ```python
->>> a = 'Hello '
->>> b = 'World'
+>>> a = "Hello "
+>>> b = "World"
 >>> c = a + b
 >>> print c
 'Hello World'
@@ -141,6 +144,7 @@ Open up your terminal and type 'python' <!-- .element class="left-align" -->
 * Variables are names of objects <!-- .element class="fragment" -->
 * Objects always have a "type" <!-- .element class="fragment" -->
 * The type can be found using: type() <!-- .element class="fragment" -->
+
 ```python
 >>> print type(4)
 <type 'int'>
@@ -159,6 +163,7 @@ Open up your terminal and type 'python' <!-- .element class="left-align" -->
 * An int or float can be used with any of: +, -, *, / <!-- .element class="fragment" -->
 * A string can be used with any of: +, * <!-- .element class="fragment" -->
 * What happens if we try to use division or subtraction with a string? <!-- .element class="fragment" -->
+
 ```python
 >>> print "Spam" / "eggs"
 Traceback (most recent call last):
@@ -269,11 +274,6 @@ You can use float() or int() to treat the input as a number if you need a number
 Note: Let's develop it: 15 minutes
 @@@
 
-###What we will cover today
-* Boolean Expressions and Conditionals <!-- .element: class="fragment" -->
-* Loops <!-- .element: class="fragment" -->
-* Functions <!-- .element: class="fragment" -->
-@@@
 
 ###Boolean Expressions
 We can tell the computer to compare values and return True or False. These are called *Boolean expressions*
