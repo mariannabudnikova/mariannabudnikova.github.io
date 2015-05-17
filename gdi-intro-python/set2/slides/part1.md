@@ -466,8 +466,7 @@ while True:
 ```python
 balance = 0
 while True:
-    prompt = "Enter a number for one of options: " + 
-    "(1) deposit, (2) withdraw, (3) quit"
+    prompt = "Enter a number for one of options: (1) deposit, (2) withdraw, (3) quit"
     input_value = raw_input(prompt)
     option = int(input_value)
     if (option == 1):
