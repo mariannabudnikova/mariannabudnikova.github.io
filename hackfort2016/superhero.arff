@@ -1,0 +1,18 @@
+@relation superhero
+@attribute 'gender' {'male', 'female'} 
+@attribute 'mask' {'yes', 'no'}
+@attribute 'cape' {'yes', 'no'}
+@attribute 'tie' {'yes', 'no'}
+@attribute 'ears' {'yes', 'no'}
+@attribute 'smokes' {'yes', 'no'}
+@attribute 'Class' {'Good', 'Bad'}
+@data
+'male','yes','yes','no','yes','no','Good'
+'male','yes','yes','no','no','no','Good'
+'male','no','no','yes','no','no','Good'
+'male','no','no','yes','no','yes','Bad'
+'female','yes','no','no','yes','no','Bad'
+'male','no','no','no','no','no','Bad'
+'female','yes','yes','no','yes','no','Good'
+'male','yes','no','no','no','no','Bad'
+
